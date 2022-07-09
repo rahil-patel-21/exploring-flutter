@@ -342,7 +342,7 @@ class PathAppLogo extends CustomPainter {
         size.height * 0.06005962);
 
     Paint paint0fill = Paint()..style = PaintingStyle.fill;
-    paint0fill.color = Color(0xff100f0d).withOpacity(1.0);
+    paint0fill.color = const Color(0xff100f0d).withOpacity(1.0);
     canvas.drawPath(path0, paint0fill);
 
     Path path1 = Path();
@@ -436,7 +436,7 @@ class PathAppLogo extends CustomPainter {
         size.height * 0.1553992);
 
     Paint paint1fill = Paint()..style = PaintingStyle.fill;
-    paint1fill.color = Color(0xff100f0d).withOpacity(1.0);
+    paint1fill.color = const Color(0xff100f0d).withOpacity(1.0);
     canvas.drawPath(path1, paint1fill);
   }
 
